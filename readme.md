@@ -76,3 +76,7 @@ The project is structure in the following sections:
 * The agent's runtime function
 
 4. Running the Agent
+
+### Backlog Improvements
+- Recovering from errors in external tools
+- Staggering passing of data context to solve complex questions
