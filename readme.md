@@ -42,6 +42,7 @@ To build this project, we need the following resources:
 5. Open the folder you've created, click on **"Open from URL"** under the **"File"** menu, and paste the following URL in the dialog box: 
 - https://raw.githubusercontent.com/Teradata/simple_data_ai_agent/refs/heads/main/simple_data_agent.ipynb. 
 ![ClearScape Analytics Experience load notebook](./graphics/load_notebook.png)
+
 This will load the project's notebook into your environment.  
 6. In the folder you created, create or load a `configs.json` file with the following structure, replacing `"your-api-key-here"` with your actual LLM API key:  
 
