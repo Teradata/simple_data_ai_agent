@@ -34,10 +34,15 @@ To build this project, we need the following resources:
 ## Setting Up the Development Environment  
 
 1. Log in to **ClearScape Analytics Experience**.  
-2. Create an environment in **ClearScape Analytics Experience**.  
-3. Start the **Jupyter Notebook** environment by clicking **"Run demos"**.  
-4. In the Jupyter Notebook environment, open the **"Use Cases"** folder and create a folder with a name of your choice.  
-5. Open the folder you've created, click on **"Open from URL"** under the **"File"** menu, and paste the following URL in the dialog box: `[Insert URL Here]`. This will load the project's notebook into your environment.  
+2. Create an environment in **ClearScape Analytics Experience**.
+![ClearScape Analytics Experience environment creation](./graphics/create_environment.png)
+3. Start the **Jupyter Notebook** environment by clicking **"Run demos"**.
+![ClearScape Analytics Experience run demo](./graphics/run_jupyter.png)  
+4. In the Jupyter Notebook environment, open the **"Use Cases"** folder and create a folder with a name of your choice.
+5. Open the folder you've created, click on **"Open from URL"** under the **"File"** menu, and paste the following URL in the dialog box: 
+- https://raw.githubusercontent.com/Teradata/simple_data_ai_agent/refs/heads/main/simple_data_agent.ipynb. 
+![ClearScape Analytics Experience load notebook](./graphics/load_notebook.png)
+This will load the project's notebook into your environment.  
 6. In the folder you created, create or load a `configs.json` file with the following structure, replacing `"your-api-key-here"` with your actual LLM API key:  
 
 ```json
