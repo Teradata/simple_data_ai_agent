@@ -59,5 +59,20 @@ This will load the project's notebook into your environment.
 
 
 ### Summary of the Project
-1. The first cell load the required libraries to the Jupyter environment.
-2. 
+The project is structure in the following sections:
+1. Project Setup: This section outlines the steps required to set up the project:  
+- Import necessary libraries  
+- Load the required API keys  
+- Establish the database connection  
+- Load the sample data into the database  
+
+2. Agent Configuration: This section covers the configuration of the agent, including:  
+* Defining the data context that the agent will interact with  
+* Setting up the routine the agent will follow as a system prompt (embedding the data context)  
+* Establishing the list of tools available for the agent to complete its tasks
+
+3. Agent Runtime: This section covers the code executed while the agent is in action, including:
+* Preparing the tools for use by the agent
+* The agent's runtime function
+
+4. Running the Agent
