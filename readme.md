@@ -53,8 +53,8 @@ This will load the project's notebook into your environment.
 ```
 
 7. Notes on dependencies
-* If running the project on ClearScape Analytics Experience using the same LLM provider as in the example, no additional libraries are required.
-* If running the project on other Jupyter Notebook platforms or locally, additional libraries and resources may be required depending on the target environment.
+* If you are running the project on ClearScape Analytics Experience using the same LLM provider as in the example, no additional libraries are required.
+* If you are running the project on other Jupyter Notebook platforms or locally, additional libraries and resources may be required depending on the target environment.
 * If using a different LLM provider, you may also need to install the corresponding SDK.
 
 
