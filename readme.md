@@ -34,12 +34,17 @@ To build this project, we need the following resources:
 ## Setting Up the Development Environment  
 
 1. Log in to **ClearScape Analytics Experience**.  
+
 2. Create an environment in **ClearScape Analytics Experience**.
+
 ![ClearScape Analytics Experience environment creation](./graphics/create_environment.png)
 3. Start the **Jupyter Notebook** environment by clicking **"Run demos"**.
+
 ![ClearScape Analytics Experience run demo](./graphics/run_jupyter.png)  
 4. In the Jupyter Notebook environment, open the **"Use Cases"** folder and create a folder with a name of your choice.
+
 5. We have several notebooks with different approaches to create the agent:
+
 * Provide context through Teradata dbc table dictionary:  
 
 Open the folder you've created, click on **"Open from URL"** under the **"File"** menu, and paste the following URL in the dialog box: 
@@ -59,6 +64,7 @@ Open the folder you've created, click on **"Open from URL"** under the **"File"*
   "llm-api-key": "your-api-key-here"
 }
 ```
+
 7. Notes on dependencies
 * If you are running the project on ClearScape Analytics Experience using the same LLM provider as in the example, no additional libraries are required.
 * If you are running the project on other Jupyter Notebook platforms or locally, additional libraries and resources may be required depending on the target environment.
