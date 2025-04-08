@@ -38,9 +38,11 @@ To build this project, we need the following resources:
 2. Create an environment in **ClearScape Analytics Experience**.
 
 ![ClearScape Analytics Experience environment creation](./graphics/create_environment.png)
+
 3. Start the **Jupyter Notebook** environment by clicking **"Run demos"**.
 
 ![ClearScape Analytics Experience run demo](./graphics/run_jupyter.png)  
+
 4. In the Jupyter Notebook environment, open the **"Use Cases"** folder and create a folder with a name of your choice.
 
 5. We have several notebooks with different approaches to create the agent:
